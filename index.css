@@ -49,7 +49,6 @@ select{
     }
   }
 
-
 /* ---------------------- */
 /* Utility classes        */
 /* ---------------------- */
@@ -68,8 +67,9 @@ select{
    /* width: var(--content-width, 80%);
     margin: 0, auto;*/
     padding-inline: 2em;
-    max-width: 80rem;
     margin-inline: auto;
+    max-width: 80rem;
+   
 }
 
 .sr-only {
@@ -82,4 +82,15 @@ select{
     clip: rect(0, 0, 0, 0);
     white-space: nowrap; /* added line */
     border: 0;
+  }
+
+
+  .box{
+      padding: 3rem;
+      background-color: lawngreen;
+  }
+
+  .global-box{
+      background-color: #444;
+      --gap: 10rem;
   }
